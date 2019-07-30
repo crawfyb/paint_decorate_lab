@@ -4,7 +4,7 @@ const Paint = require('../paint.js')
 describe('Paint', function() {
   let paint;
   beforeEach(function(){
-    paint = new Paint(10);
+    paint = new Paint();
   });
   it('should show number of litres', function() {
     const actual = paint.litres;
